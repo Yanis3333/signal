@@ -1,12 +1,12 @@
 <p>point works!</p>
 
-<button class="btn" (click)="etat = true">Click</button>
+<button class="btn">Click</button>
 
 <div class="gamezone">
     @for (i of indexes; track $index){
         <img src="/assets/rond.png" alt="rond" class="rondpng"/>
-        @if (i === 2) {
-            <img src="/assets/rond_plein.png" alt="rondplein" class="rondpng">
+        @if (quantity > i) {
+                
         }
-    }   
+    }
 </div>
