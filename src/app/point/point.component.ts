@@ -12,7 +12,9 @@ export class PointComponent {
   emptyPoint:string = '/src/assets/rond.png'
   fullPoint:string = '/src/assets/rond_plein.png'
 
-  etat = false
-
   quantity:WritableSignal<number> = signal(2);
+
+  getNumber(){
+    return this.quantity
+  }
 }
